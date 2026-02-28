@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class CountCharacters {
         public static void main(String[] args) {
                 Scanner sc = new Scanner(System.in);
-                String s = sc.next();
+                String s = sc.nextLine();
                 int vowels = 0;
                 int consonants = 0;
                 int digits = 0;
